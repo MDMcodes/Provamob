@@ -1,8 +1,9 @@
 import { createDrawerNavigator } from '@react-navigation/drawer';
+import { NavigationContainer } from '@react-navigation/native';
 
 const Drawer = createDrawerNavigator();
 
-function Fale() {
+function Estoque(navigation) {
   return (
     <Drawer.Navigator>
         <View>

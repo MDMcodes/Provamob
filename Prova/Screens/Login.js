@@ -1,9 +1,10 @@
 import { createStackNavigator } from '@react-navigation/stack';
 import {Text, TextInput, Button} from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
 
 const Stack = createStackNavigator();
 
-function Stack() {
+function Stack(navigation) {
   return (
     <Stack.Navigator>
         <View
